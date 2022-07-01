@@ -232,15 +232,15 @@ a:hover {
     transition: 0.3s;
 }
 
-.card:nth-child(1) {
+.card#github {
     background-image: url('./github.png');
 }
 
-.card:nth-child(2) {
+.card#linkedin {
     background-image: url('./linkedin.webp');
 }
 
-.card:nth-child(3) {
+.card#instagram {
     background-image: url('./instagram.png');
 }
 
