@@ -232,15 +232,15 @@ a:hover {
     transition: 0.3s;
 }
 
-.card#github {
+#github.card {
     background-image: url('./github.png');
 }
 
-.card#linkedin {
+#linkedin.card {
     background-image: url('./linkedin.webp');
 }
 
-.card#instagram {
+#instagram.card {
     background-image: url('./instagram.png');
 }
 
