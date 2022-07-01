@@ -220,7 +220,6 @@ a:hover {
     height: 300px;
     width: 400px;
     margin: 3rem 0 0;
-    background-image: url('./landscape.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,6 +230,18 @@ a:hover {
     color: white;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.card:nth-child(1) {
+    background-image: url('./github.png');
+}
+
+.card:nth-child(2) {
+    background-image: url('./linkedin.webp');
+}
+
+.card:nth-child(3) {
+    background-image: url('./instagram.png');
 }
 
 .card-text {
