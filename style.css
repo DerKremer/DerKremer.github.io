@@ -233,15 +233,20 @@ a:hover {
 }
 
 #github.card {
-    background-image: url('./github.png');
+    background-color: #9921e8;
+    background-image: linear-gradient(315deg, #9921e8 0%, #2e3b6e 74%);
 }
 
 #linkedin.card {
-    background-image: url('./linkedin.webp');
+    background:linear-gradient(0deg, #0278b6, #017dbb, #0185c3, #0185c3, #0296d2, #00a0dc);
 }
 
 #instagram.card {
-    background-image: url('./instagram.png');
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1);
 }
 
 .card-text {
@@ -273,6 +278,14 @@ a:hover {
 
 .card-wrapper h2 {
     font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0%;
+    transition: .3s;
+}
+
+.card-wrapper h3 {
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin: 0%;
